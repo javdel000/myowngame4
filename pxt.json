@@ -1,0 +1,21 @@
+{
+    "name": "myowngame4",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "color-coded-tilemap": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
