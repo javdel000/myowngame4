@@ -118,7 +118,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Key, function (sprite, otherSpri
 })
 function countdown () {
     // gives a limited amount of time to complete the game
-    info.startCountdown(3)
+    info.startCountdown(60)
 }
 function bonus2 () {
     bonus = sprites.create(img`
